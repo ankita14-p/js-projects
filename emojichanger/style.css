@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.emoji{
+     font-size: 4rem;
+    filter: grayscale(1);
+    transform: scale(1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transition-duration: 300ms;
+}
+.emoji:hover{
+    filter: grayscale(0);
+    transform: scale(1.3);
+}
