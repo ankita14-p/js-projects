@@ -8,7 +8,13 @@ activeRating.addEventListener("click",(e)=>{
     if(e.target.parentNode.classList.contains("rating")){
         removeActive();
         e.target.parentNode.classList.add("active");
-        selectedFeedback=e.target.nextElementSibling.innerText;
+      
+        if(e.target.classList.contains("icon")){
+            selectedFeedback=e.target.nextElementSibling.innerText;
+        }
+        else{
+            selectedFeedback=e.target.innerText;
+        }
     };
 });
 send.addEventListener("click",()=>{
