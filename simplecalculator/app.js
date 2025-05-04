@@ -1,4 +1,4 @@
-const main=document.querySelector(".container")
+const main=document.querySelector(".container");
 let symbol=document.querySelector("#sign");
 const btn=document.querySelector(".btn");
 let ans=0;
@@ -7,7 +7,7 @@ btn.addEventListener("click",()=>{
      const secondNum=document.getElementById("secondnumber").value;
     switch(symbol.value){
         case "+":
-            ans=parseInt(firstNum)+parseInt(secondNum);
+        ans=parseInt(firstNum)+parseInt(secondNum);
         main.innerHTML=
         `
         <strong>Ans:${ans}</strong>
@@ -24,7 +24,7 @@ btn.addEventListener("click",()=>{
         `;
         break;
         case "*":
-            ans=parseInt(firstNum)*parseInt(secondNum);
+        ans=parseInt(firstNum)*parseInt(secondNum);
         main.innerHTML=
         `
         <strong>Ans:${ans}</strong>
@@ -32,7 +32,7 @@ btn.addEventListener("click",()=>{
         `;
         break;
         case "/":
-            ans=parseInt(firstNum)/parseInt(secondNum);
+        ans=parseInt(firstNum)/parseInt(secondNum);
         main.innerHTML=
         `
         <strong>Ans:${ans}</strong>

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #ffffff;
+    padding: 2rem;
+    width: 400px;
+
+}
+form{
+    margin-top: 1rem;
+}
+form input{
+    width: 100%;
+    padding: 1rem 0.5rem;
+    margin-left: -0.5rem;
+}
+strong{
+    margin-left: 140px;
+    font-size: 1.5rem;
+    color: rgb(39, 103, 105);
+}
+.todos{
+    margin-top: 2em;
+}
+.todo{
+    border-left: 1px solid cadetblue ;
+    color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    margin-bottom: 1em;
+}
+.delete{
+    color: cadetblue;
+    cursor: pointer;
+}
