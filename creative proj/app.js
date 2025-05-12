@@ -27,5 +27,6 @@ tl.fromTo(
   {
     opacity: 1,
     x: 0,
+    // rotate:360,
   }
 );
