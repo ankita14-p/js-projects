@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  padding: 1rem;
+  background: #535a4a;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.logo h1 {
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  margin-right: 3rem;
+}
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  background: linear-gradient(45deg, #535a4a, #1b1b1b);
+  position: fixed;
+  z-index: -1;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 30%;
+  font-family: "Roboto", sans-serif;
+  background: #1b1b1b;
+  color: #fff;
+}
+.main-img {
+  width: 40%;
+  margin-top: 4rem;
+  margin-left: -20rem;
+}
+.main-title {
+  transform: rotate(-90deg);
+  font-family: "Kumar One Outline", cursive;
+  margin-top: 11rem;
+  font-size: 3.5rem;
+}
+.main-info {
+  transform: rotate(-90deg);
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+  margin-left: 7rem;
+}
